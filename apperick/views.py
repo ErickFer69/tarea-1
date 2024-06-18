@@ -9,7 +9,7 @@ def adios(request):
     return HttpResponse("Adiós")
 
 def mostrarhtml(request):
-    minombre = 'Jesús García'
+    minombre = 'Erick'
     contexto = {
         "minombre": minombre
     }
